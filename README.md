@@ -1,6 +1,8 @@
 # ETran
 ETran: Energy-based Transferability Estimation.
-[![Open In Colab][https://colab.research.google.com/drive/1IFpB3-Z99WcmfJG4MEFTrkmdvdHPsYtt?usp=sharing]
+
+[![Open In Colab][https://colab.research.google.com/drive/1IFpB3-Z99WcmfJG4MEFTrkmdvdHPsYtt?usp=sharing]]
+
 Please check out the following link to download the code: https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=56e6645a-8133-49f6-a7ef-d877ef608fa5
 
 
