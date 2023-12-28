@@ -44,3 +44,9 @@ Here's how you can use it:
 ```
 python forward_feature.py -d $dataset
 ```
+
+## 4. Calculating the transferability score for all the target datasets
+In this step, we use the transferability metrics to calculate a score for a target dataset using `evaluate_metric.py`. This script takes as input the name of the metric and the name of the target dataset. If you want to reproduce the results of ETran on classification benchmark you need to extract the scores of both 'lda' and 'energy' metrics. You can also reproduce the results of prior work by selecting the metric as 'logme','sfda','pactran', etc.
+```
+python evaluate_metric.py -me $metric -d $dataset
+```
