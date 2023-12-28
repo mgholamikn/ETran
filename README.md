@@ -5,7 +5,7 @@
 
 
 <p align="center">.
-<img  src="Figures/Transferability.jpg" width="600">
+<img  src="Figures/ETran.jpg" width="600">
 <p/>
 
 ## 1. Setup and package installation
