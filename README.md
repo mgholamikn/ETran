@@ -4,7 +4,7 @@
 
 
 <p align="center">.
-<img  src="Figures/Tiser.jpg" width="600">
+<img  src="Figures/Transferability.jpg" width="600">
 <p/>
 
 
