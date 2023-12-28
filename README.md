@@ -46,7 +46,14 @@ python forward_feature.py -d $dataset
 ```
 
 ## 4. Calculating the transferability score for all the target datasets
-In this step, we use the transferability metrics to calculate a score for a target dataset using `evaluate_metric.py`. This script takes as input the name of the metric and the name of the target dataset. If you want to reproduce the results of ETran on classification benchmark you need to extract the scores of both 'lda' and 'energy' metrics. You can also reproduce the results of prior work by selecting the metric as 'logme','sfda','pactran', etc.
+In this step, we use the transferability metrics to calculate a score for a target dataset using `evaluate_metric.py`. This script takes as input the name of the metric and the name of the target dataset. If you want to reproduce the results of ETran on classification benchmark you need to extract the scores of both 'lda' and 'energy' metrics. You can also reproduce the results of prior work by selecting the metric as 'logme', 'sfda', 'pactran', etc.
 ```
 python evaluate_metric.py -me $metric -d $dataset
+```
+
+## 5. Calculating the Kendall τ
+In this step, we calculate the Kendall τ using the transferability scores that were obtained in the previous step. Use `tw.py` to obtain the Kendall τ for a metric and a dataset. If you want to reproduce the results of ETran specify 'etran' as the name of the metric to combine the scores of classification, regression, and energy metrics. 
+
+```
+python tw.py -me $metric -d $dataset
 ```
