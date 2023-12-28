@@ -4,8 +4,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/etran-energy-based-transferability-estimation/transferability-on-classification-benchmark)](https://paperswithcode.com/sota/transferability-on-classification-benchmark?p=etran-energy-based-transferability-estimation)
 
 
-<p align="center">.
-<img  src="Figures/ETran.jpg" width="900">
+<p align="center">
+<img  src="Figures/ETran.jpg" width="1000">
 <p/>
 
 ## 1. Setup and package installation
