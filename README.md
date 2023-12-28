@@ -5,7 +5,7 @@
 
 
 <p align="center">.
-<img  src="Figures/ETran.jpg" width="800">
+<img  src="Figures/ETran.jpg" width="900">
 <p/>
 
 ## 1. Setup and package installation
