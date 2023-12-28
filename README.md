@@ -41,9 +41,6 @@ To accomplish this, we will use the `forward_feature.py` script. This script tak
 
 Here's how you can use it:
 
-```bash
+```
 python forward_feature.py -d $dataset
-
-
-
-
+```
