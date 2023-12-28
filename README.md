@@ -33,5 +33,17 @@ wget https://download.pytorch.org/models/densenet169-b2777c0a.pth
 wget https://download.pytorch.org/models/densenet201-c1103571.pth
 ```
 
+## 3. Feature Construction
+
+In this step, we will construct features for our target datasets using pre-trained models. The goal is to leverage the power of these models to extract meaningful and discriminative features from our data.
+
+To accomplish this, we will use the `forward_feature.py` script. This script takes as input the name of the target dataset and generates the corresponding features.
+
+Here's how you can use it:
+
+```bash
+python forward_feature.py -d $dataset
+
+
 
 
