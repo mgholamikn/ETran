@@ -1,4 +1,4 @@
-# ETran: Energy-based Transferability Estimation.
+# ETran: Energy-based Transferability Estimation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IFpB3-Z99WcmfJG4MEFTrkmdvdHPsYtt?usp=sharing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/etran-energy-based-transferability-estimation/transferability-on-classification-benchmark)](https://paperswithcode.com/sota/transferability-on-classification-benchmark?p=etran-energy-based-transferability-estimation)
