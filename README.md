@@ -58,3 +58,14 @@ In this step, we calculate the Kendall τ using the transferability scores that 
 ```
 python tw.py -me $metric -d $dataset
 ```
+
+Citation:
+```
+@inproceedings{gholami2023etran,
+  title={ETran: Energy-Based Transferability Estimation},
+  author={Gholami, Mohsen and Akbari, Mohammad and Wang, Xinglu and Kamranian, Behnam and Zhang, Yong},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={18613--18622},
+  year={2023}
+}
+```
